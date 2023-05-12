@@ -119,13 +119,13 @@ def main():
 
     if ping_type == "tcp":
         for i in range(thread_count):
-            t = threading.Thread(target=tcp_ping, args=(ip, port))
+            t = threading.Thread(target=tcp_ping, args=(ip, port. data_size))
             t.daemon = True
             t.start()
 
     elif ping_type == "dns":
         for i in range(thread_count):
-            t = threading.Thread(target=dns_ping, args=(ip,))
+            t = threading.Thread(target=dns_ping, args=(ip, port, data_size))
             t.daemon = True
             t.start()
 

@@ -1,9 +1,5 @@
-   ______          __   ___ ____ ____  __ 
-  / __ \ \        / /  / _ \___ \___ \/_ |
- | |  | \ \  /\  / /  | (_) |__) |__) || |
- | |  | |\ \/  \/ /    \__, |__ <|__ < | |
- | |__| | \  /\  /       / /___) |__) || |
-  \____/   \/  \/       /_/|____/____/ |_|
+# Created by ow#9331 on Discord
+
 # A Strong Thread and Byte based DDoS Attack sent to a Person or a Domain
 # Methods used:
 # HTTPS, UDP, HTTP, DNS, & TCP
